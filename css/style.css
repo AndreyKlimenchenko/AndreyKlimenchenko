@@ -40,10 +40,17 @@ body {
     border-bottom: solid 3px #FAFAFA;
 }
 
+.svg {
+    fill: rgb(242, 139, 56);
+}
+
+.svg:hover {
+    fill: rgb(240, 28, 24);
+}
+
 .basket-icon {
     width: 65px;
     height: 65px;
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg version='1.1' id='Icons' xmlns='http://www.w3.org/2000/svg' x='0' y='0' viewBox='0 0 32 32' xml:space='preserve'%3e%3cstyle%3e.st2%7bfill:none;stroke:%23000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10%7d%3c/style%3e%3cpath class='st2' d='M26 21v3l-10 4-10-4v-3M6 12l10-4 10 4-10 4z'/%3e%3cpath class='st2' d='M16 8l-3-3L3 9l3 3M16 8l3-3 10 4-3 3M6 12l-3 4 10 4 3-4M26 12l3 4-10 4-3-4'/%3e%3c/svg%3e");
     padding: 0px;
     background-color: transparent;
     border: none;
@@ -181,6 +188,12 @@ body {
 .social {
     width: 35px;
     height: 35px;
+    background-color: rgb(255, 116, 142);
+    border-radius: 17px;
+}
+
+.social:hover {
+    background-color: rgb(244, 15, 24);
 }
 
 .footer-about {
@@ -194,7 +207,7 @@ body {
     justify-content: space-around;
 }
 
-.use {
+.mail-phone {
     font-size: 23px;
     margin-top: 10px;
     font-family: 'Prata', serif;
@@ -202,15 +215,29 @@ body {
     background-color: transparent;
     border: none;
     border-bottom: solid 3px transparent;
-    /* cursor: pointer; */
     outline: none;
     font-weight: 400;
     font-size: 25px;
     line-height: 24px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(242, 139, 56);
+}
+
+.mail-phone:hover {
+    color: rgb(240, 28, 24);
 }
 
 .logo-img {
     width: 250px;
+}
+
+.use {
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Prata', serif;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
 }
