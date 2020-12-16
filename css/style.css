@@ -1,0 +1,200 @@
+body {
+    font-family: 'Caveat', cursive;
+}
+
+.header, .footer {
+    background-image: url(https://www.fotokomok.ru/wp-content/uploads/2013/12/Christmas-Blue-Background-2-570x427.png);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    min-height: 2em;
+}
+
+.header-nav {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-btn {
+    font-family: 'Prata', serif;
+    padding: 0px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px transparent;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(242, 139, 56);
+}
+
+.nav-btn:hover {
+    color: rgb(240, 28, 24);
+    border-bottom: solid 3px #FAFAFA;
+}
+
+.basket-icon {
+    width: 65px;
+    height: 65px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg version='1.1' id='Icons' xmlns='http://www.w3.org/2000/svg' x='0' y='0' viewBox='0 0 32 32' xml:space='preserve'%3e%3cstyle%3e.st2%7bfill:none;stroke:%23000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10%7d%3c/style%3e%3cpath class='st2' d='M26 21v3l-10 4-10-4v-3M6 12l10-4 10 4-10 4z'/%3e%3cpath class='st2' d='M16 8l-3-3L3 9l3 3M16 8l3-3 10 4-3 3M6 12l-3 4 10 4 3-4M26 12l3 4-10 4-3-4'/%3e%3c/svg%3e");
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px transparent;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(242, 139, 56);
+}
+
+.main-section {
+    background-image: url(https://lh3.googleusercontent.com/proxy/Gj7_Ydu1KlrZO0aP98-OqE-vtrR86hH04D1JwRqrrB8XRUT1o86GMDa7NHusTPMjgAz_gzYYjqX0mlfsZmWTqpnrMSvFmig);
+}
+
+.catalog {
+    margin: 30px;
+    font-size: 40px;
+    color: rgb(240, 28, 24);
+}
+
+.catalog-name {
+    margin-left: 15px;
+}
+
+.img-btn {
+    width: 50px;
+    height: 50px;
+}
+
+.main-btns {
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+}
+
+.main-btn {
+    font-family: 'Prata', serif;
+    padding: 0px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px transparent;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(242, 139, 56);
+}
+
+.main-btn:hover {
+    color: rgb(240, 28, 24);
+}
+
+.catalog-and-presents {
+    display: flex;
+}
+
+.present-btn {
+    color: rgb(240, 28, 24);
+}
+
+.present-btn:hover {
+    color: rgb(242, 139, 56);
+}
+
+.presents {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.present {
+    margin: 15px;
+}
+
+.present-info {
+    font-size: 15px;
+}
+
+.present-img {
+    width: 85%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-nav {
+    display: flex;
+    margin: 0px;
+
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-btn {
+    width: 15px;
+    height: 15px;
+}
+
+.social-icon {    
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px transparent;
+    cursor: pointer;
+    outline: none;
+}
+.social {
+    width: 35px;
+    height: 35px;
+}
+
+.footer-about {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.social-btns {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.use {
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.logo-img {
+    width: 250px;
+}
