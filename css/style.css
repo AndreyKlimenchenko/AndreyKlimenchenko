@@ -68,6 +68,11 @@ body {
     background-image: url(https://lh3.googleusercontent.com/proxy/Gj7_Ydu1KlrZO0aP98-OqE-vtrR86hH04D1JwRqrrB8XRUT1o86GMDa7NHusTPMjgAz_gzYYjqX0mlfsZmWTqpnrMSvFmig);
 }
 
+.section-container {
+    width: 90%;
+    margin: 0px auto;
+}
+
 .catalog {
     margin: 30px;
     font-size: 40px;
@@ -76,6 +81,7 @@ body {
 
 .catalog-name {
     margin-left: 15px;
+    text-align: left;
 }
 
 .img-btn {
@@ -87,6 +93,7 @@ body {
     flex-direction: column;
     display: flex;
     align-items: baseline;
+    margin-right: 50px;
 }
 
 .main-btn {
@@ -125,7 +132,7 @@ body {
 .presents {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 50px;
+    justify-content: center;
 }
 
 .present {
@@ -133,7 +140,7 @@ body {
 }
 
 .present-info {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .present-img {
