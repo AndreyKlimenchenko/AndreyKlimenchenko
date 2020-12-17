@@ -23,7 +23,7 @@ body {
 }
 
 .header, .footer {
-    background-image: url(https://www.fotokomok.ru/wp-content/uploads/2013/12/Christmas-Blue-Background-2-570x427.png);
+    background-image: url(../img/middle-bcg.png);
 }
 
 .header {
@@ -84,7 +84,7 @@ body {
 
 .main-section {
     padding-top: 1px;
-    background-image: url(https://lh3.googleusercontent.com/proxy/Gj7_Ydu1KlrZO0aP98-OqE-vtrR86hH04D1JwRqrrB8XRUT1o86GMDa7NHusTPMjgAz_gzYYjqX0mlfsZmWTqpnrMSvFmig);
+    background-image: url(../img/page-bcg.png);
 }
 
 .section-container {
