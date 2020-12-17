@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    margin: 0px auto;
+    text-align: center;
     margin-bottom: 30px;
     font-size: 26px;
     color: rgb(240, 28, 24);
@@ -29,6 +29,7 @@ hr {
 .about-title {
     margin: 0px auto;
     margin-bottom: 30px;
+    width: 90%;
     font-size: 21px;
     line-height: 30px;
     color: rgb(211, 135, 135);
