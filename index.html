@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Домашнее задание №2">
     <meta name="author" content="Андрей Клименченко FE108">
     <title>Домашнее задание №2</title>
@@ -12,8 +13,15 @@
 <body>
     <header class="header">
         <nav class="header-nav">
+            <audio id="player" src="./audio/Christmas.mp3"></audio>
+            <div> 
+                <button class="player-btn" onclick="document.getElementById('player').play()">Новогодняя песня</button> 
+                <button class="player-btn" onclick="document.getElementById('player').pause()">выкл.</button> 
+                <button class="player-btn" onclick="document.getElementById('player').volume += 0.2">громче</button> 
+                <button class="player-btn" onclick="document.getElementById('player').volume -= 0.2">тише</button> 
+            </div>
             <div class="nav-btns">
-                <button class="nav-btn" onclick="window.location.href = 'https://spartak.by/';">
+                <button class="nav-btn" onclick="window.location.href = './main/main.html';">
                     Главная
                 </button>
                 <button class="nav-btn" onclick="window.location.href = 'https://spartak.by/about_us/';">
@@ -45,36 +53,6 @@
                         <polygon points="328.585,240.96 335.616,217.728 186.684,217.728 193.741,240.96 	"/>
                         <polygon points="155.2,113.707 165.457,148.002 380.442,148.002 345.391,264.081 176.977,264.081 
                             113.783,55.467 0,55.467 0,89.502 88.269,89.502 151.607,298.355 370.65,298.355 426.667,113.707 	"/>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
                     </g>
                     </svg>
                 </button>

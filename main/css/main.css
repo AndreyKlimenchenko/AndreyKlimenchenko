@@ -1,0 +1,46 @@
+body {
+    background: -webkit-linear-gradient(45deg, rgb(229, 221, 130), rgb(113, 216, 219));
+    background: -moz-linear-gradient(45deg, rgb(229, 221, 130), rgb(113, 216, 219));
+    background: linear-gradient(45deg, rgb(229, 221, 130), rgb(113, 216, 219));
+    font-family: 'Prata', serif;
+    padding-bottom: 50px;
+}
+
+h1 {
+    margin: 0px auto;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: rgb(240, 28, 24);
+}
+
+hr {
+    margin: 50px 0px;
+    border: none;
+    background-color: red;
+    color: red;
+    height: 2px;
+}
+
+.header {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.about-title {
+    margin: 0px auto;
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgb(211, 135, 135);
+}
+
+.about-info {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: 'Caveat', cursive;
+}
+
+.list {
+    margin-bottom: 20px;
+}
