@@ -61,10 +61,12 @@ body {
 
 .svg {
     fill: rgb(242, 139, 56);
+    transition: 1s;
 }
 
 .svg:hover {
     fill: rgb(240, 28, 24);
+    transform: scale(1.2);
 }
 
 .basket-icon {
@@ -164,6 +166,11 @@ body {
 
 .present-img {
     width: 85%;
+    transition: 1s;
+}
+
+.present-img:hover {
+    transform: scale(1.1);
 }
 
 .footer {
