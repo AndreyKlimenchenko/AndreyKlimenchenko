@@ -50,3 +50,25 @@ hr {
     color: red;
     height: 2px;
 }
+
+.nav-btn {
+    font-family: 'Prata', serif;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 3px transparent;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(211, 135, 135);
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.nav-btn:hover {
+    color: rgb(240, 28, 24);
+}
