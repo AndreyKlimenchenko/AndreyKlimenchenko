@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+
+td, th {
+    border: 1px solid rgb(39, 39, 39);
+}
+
+.table {
+    border: 1px solid rgb(39, 39, 39);
+    border-collapse: collapse;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.table-top {
+    background-color: rgb(214, 228, 188);
+}
+
+.table-bottom {
+    background-color: rgb(198, 217, 241);
+}
+
+.total {
+    text-align: right;
+}
+
+.rating, .name {
+    text-align: center;
+}
+
+.color1:hover {
+    color: rgb(240, 66, 46);
+    background-color: rgb(19, 228, 214);
+    transition: .4s ease-out;
+    transition-delay: 0.2s;
+}   
+
+.color2:hover {
+    color: rgb(14, 21, 230);
+    background-color: rgb(19, 228, 214);
+    transition: .4s ease-out;
+    transition-delay: 0.2s;
+}
+
+hr {
+    margin: 50px 0px;
+    border: none;
+    background-color: red;
+    color: red;
+    height: 2px;
+}

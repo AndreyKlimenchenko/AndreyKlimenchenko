@@ -77,3 +77,7 @@ for (i=0;i<=snowmax;i++) {
 if (browserok) {
     window.onload=initsnow;
 }
+
+
+
+
