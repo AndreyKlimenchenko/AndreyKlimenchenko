@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+}
+
+form {
+    margin-left: 30px;
+    width: 800px;
+}
+
+input, textarea {
+    width: 400px;
+    margin-left: 15px;
+    border: solid 1px rgb(17, 17, 232);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input:valid +  #validation::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(ok.svg);
+    background-size: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+input:invalid +  #validation::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(fail.svg);
+    background-size: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;;
+    margin: 20px;
+    font-size: 16px;
+}   
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(17, 17, 232);
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(17, 17, 232);
+}

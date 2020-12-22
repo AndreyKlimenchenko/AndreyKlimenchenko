@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Домашнее задание №3">
+    <meta name="author" content="Андрей Клименченко FE108">
+    <title>Домашнее задание №3</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <form action="./index.html">
+        <h2>Общая информация</h2>
+        <div class="input-container"><span>Фамилия: </span><input type="text" required minlength="3" title="фамилия"><span id="validation"></span></div>
+        <div class="input-container"><span>Имя: </span><input type="text" required title="имя"><span id="validation"></span></div>
+        <div class="input-container"><span>Отчество: </span><input type="text" required title="отчество"><span id="validation"></span></div>
+        <div class="input-container"><span>Дата рождения: </span><input type="date" required title="дата рождения"><span id="validation"></span></div>
+        <div class="select-container"><span>пол: </span><select name="" id="" required title="пол">
+            <option value="female">мужской</option>
+            <option value="male">женский</option>
+        </select><span id="validation"></span></div>
+        <div class="input-container"><span>Фото: </span><input type="file" name="f" required title="фото"><span id="validation"></span></div>
+        <h2>Контактная информация</h2>
+        <div class="input-container"><span>Мобильный телефон: </span><input type="tel" required placeholder="+375" title="телефон"><span id="validation"></span></div>
+        <div class="input-container"><span>Электронная почта: </span><input type="email" required title="эл. почта"><span id="validation"></span></div>
+        <div class="input-container"><span>Адрес проживания: </span><input type="text" required title="адрес"><span id="validation"></span></div>
+        <div class="input-container"><span>Город проживания: </span>
+            <select name="" id="" title="город">
+                <option value="">Минск</option>
+                <option value="">Минская область</option>
+                <option value="">Брест</option>
+                <option value="">Витебск</option>
+                <option value="">Могилев</option>
+                <option value="">Гомель</option>
+                <option value="">Гродно</option>
+                <option value="">Пинск</option>
+                <option value="">Молодечно</option>
+                <option value="">Борисов</option>
+                <option value="">Бобруйск</option>
+                <option value="">Орша</option>
+                <option value="">Полоцк</option>
+                <option value="">Барановичи</option>
+            </select>
+        </div>
+        <div class="input-container"><textarea placeholder="другой" name="" id="" cols="15" rows="2" title="Если нет в списке" title="если нет в списке"></textarea></div>
+        <h2>Образование (наименование учреждений)</h2>
+        <div class="input-container"><span>Высшее: </span><textarea name="" id="" cols="15" rows="2" title="высшее"></textarea></div>
+        <div class="input-container"><span>Среднее: </span><textarea name="" id="" cols="15" rows="2" title="среднее"></textarea></div>
+        <div class="input-container"><span>Дополнительное: </span><textarea name="" id="" cols="15" rows="2" title="Дополнительное"></textarea></div>
+        <div class="input-container"><span>Курсы: </span><textarea name="" id="" cols="15" rows="2" title="курсы"></textarea></div>
+        <h2>Образование (наименование учреждений)</h2>
+        <div class="textarea-container">
+            <div class="input-container"><span>Первое место работы: </span><textarea name="" id="" cols="15" rows="2" title="Первое место работы"></textarea></div>
+            <div class="input-container"><span>начало: </span><input type="date" title="начало"></div>
+            <div class="input-container"><span>окончание: </span><input type="date" title="окончание"></div>
+        </div>
+        <div class="textarea-container">
+            <div class="input-container"><span>Второе место работы: </span><textarea name="" id="" cols="15" rows="2" title="Первое место работы"></textarea></div>
+            <div class="input-container"><span>начало: </span><input type="date" title="начало"></div>
+            <div class="input-container"><span>окончание: </span><input type="date" title="окончание"></div>
+        </div>
+        <div class="textarea-container">
+            <div class="input-container"><span>Третье место работы: </span><textarea name="" id="" cols="15" rows="2" title="Первое место работы"></textarea></div>
+            <div class="input-container"><span>начало: </span><input type="date" title="начало"></div>
+            <div class="input-container"><span>окончание: </span><input type="date" title="окончание"></div>
+        </div>
+        <div class="input-container"><span>О себе: </span><textarea name="" id="" cols="25" rows="10" title="хобби, увлечения и т.д."></textarea></div>
+        <div class="input-container"><input class="btn" type="submit" value="отправить" title="отправить резюме"></div>
+    </form>
+</body>
+</html>
